@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Kanit&family=Kreon:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.cabelho-imagem{
+    height: 72px;
+    
+}
+
+.cabecalho-nome{
+    font-family: 'Jua', sans-serif;
+    font-size: 35px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Kanit', sans-serif;
+    font-size: 28px;
+    color: #000000;
+}
+
+.introducao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #8080F2;
+    border-radius: 20px 150px 20px 150px;
+    padding: 75px;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+.introducao-conectar{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+
+.introducao-conectar-texto{
+    font-family: 'Kanit', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    width: 400px;
+    font-size: 40px;
+   
+}
+
+.introducao-conectar-botao{
+    background-color: #3434EA;
+    border: none;
+    border-radius: 18px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    color: #D6D6F7;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px;
+}
+
+.conteudo-titulo{
+    margin: 30px;
+    font-size: 35px;
+    font-family:'Kreon', serif;
+}
+
+.conteudo-texto{
+    width: 1000px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.conteudo-imagem{
+    margin: 35px;
+    width: 150px;
+}
+
+.meditacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.meditacoes-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.meditacoes-imagem-container {
+    width: 180px;
+    height: 180px;
+    background-color: #D88CE4;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.meditacoes-imagem{
+    width: 75%;
+    object-fit: cover;
+}
+
+.meditacoes-texto{
+    font-family: 'Kreon', serif;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.frases{
+    font-family: 'Kreon', serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.frases-notas1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.frases-notas2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.frases-post1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #8080F2;
+    margin: 80px;
+    margin-top: 240px;
+    padding: 20px;
+    width: 340px;
+    height: 300px;
+    color: #F9F1F1;
+}
+
+.frases-post2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #8080F2;
+    padding: 20px;
+    width: 320px;
+    height: 320px;
+    color: #F9F1F1;
+}
+
+.rodape{
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.rodape-titulo {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 150px; 
+    font-family: 'Jua', serif;
+}
+
+.rodape-imagem {
+    position: absolute;
+    width: 25%;
+    top: 80px; 
+    transform: translateX(150%); /* centralizar a imagem horizontalmente */
+}
+
+.rodape-direitos {
+    background-color: #8080F2;
+    text-align: center;
+    border-radius: 105px 105px 0px 0px;
+    padding-top: 150px;
+    padding-left: 640px;
+    padding-right: 600px;
+    padding-bottom: 40px;
+    color: #F9F1F1;
+    font-family: 'Kanit', sans-serif;
+}
