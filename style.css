@@ -184,6 +184,8 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: #8080F2;
+    margin: 80px;
+    margin-top: 240px;
     padding: 20px;
     width: 320px;
     height: 320px;
@@ -221,4 +223,25 @@ body{
     padding-bottom: 40px;
     color: #F9F1F1;
     font-family: 'Kanit', sans-serif;
+}
+
+@media(min-width: 360px) and (max-width: 500px){
+    .frases-notas1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+     .frases-post1{
+        margin-bottom: 0px;
+        
+     }
+    .frases-notas2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .frases-post2{
+        margin-bottom: 0px;
+     }
 }
