@@ -52,9 +52,9 @@ body{
     justify-content: space-around;
     background-color: #8080F2;
     border-radius: 20px 150px 20px 150px;
-    padding: 75px;
-    margin-left: 20px;
-    margin-right: 20px; 
+    padding: 55px;
+    margin-left: 40px;
+    margin-right: 40px; 
 }
 
 .introducao-conectar{
@@ -85,6 +85,8 @@ body{
     margin-right: 100px;
     text-align: center;
 }
+
+
 
 .conteudo{
     display: flex;
@@ -225,7 +227,79 @@ body{
     font-family: 'Kanit', sans-serif;
 }
 
-@media(min-width: 360px) and (max-width: 500px){
+@media(min-width: 360px) and (max-width: 700px){
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        padding: 14px;
+    }
+    .cabecalho-menu-item{
+        font-size: 28px;
+        margin-top: 15px;
+    }
+    .cabelho-imagem{
+        width: 5%;
+        
+    }
+    .introducao{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px 100px 10px 100px;
+        padding: 60px;
+        margin-left: 20px;
+        margin-right: 20px; 
+    }
+
+    .introducao-conectar-texto{
+        text-align: center;
+        font-size: 35px;
+       
+    }
+
+    .introducao-conectar-botao{
+        border-radius: 10px;
+        font-family: 'Kanit', sans-serif;
+        font-size: 25px;
+        color: #D6D6F7;
+        padding: 3px;
+        margin-left: 120px;
+        margin-right: 120px;
+        text-align: center;
+    }
+
+    .introducao-conectar-imagem{
+        width: 125%;
+        margin: 40px;
+    }
+
+    .conteudo-imagem{
+        margin: 35px;
+        width: 110px;
+    }
+
+    .conteudo-titulo{
+        font-size: 28px;
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+
+    .conteudo-texto{
+        width: 400px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .meditacoes-imagem-container {
+        width: 120px;
+        height: 120px;
+    }
+
+    .meditacoes-texto{
+        font-family: 'Kreon', serif;
+        font-size: 25px;
+        text-align: center;
+    }
+
     .frases-notas1{
         display: flex;
         flex-direction: column;
@@ -244,4 +318,18 @@ body{
     .frases-post2{
         margin-bottom: 0px;
      }
+
+     .rodape-imagem {
+        width: 45%;
+        top: 80px; 
+        transform: translateX(60%);
+    }
+     .rodape-direitos {
+        padding-top: 15px;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 40px;
+        font-size: 15px;
+        border-radius: 60px 60px 0px 0px;
+    }
 }
